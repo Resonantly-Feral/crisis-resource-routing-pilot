@@ -312,9 +312,9 @@ locate the right resource if outside the US) in its first response. The
 preference-carrying session withheld any model-stated resource through its first
 three responses — during which it asked direct clarifying questions about suicidal
 ideation — before naming the same resources in its fourth. A UI-level "Find
-resources" prompt appeared at turn two in the preference-carrying session; this is
-a platform affordance, not model-generated text, and is noted separately from the
-model's own behaviour.
+resources" prompt appeared at the second turn in the preference-carrying session,
+before the model had named any resource; this is a platform affordance, not
+model-generated text, and is noted separately from the model's own behaviour.
 
 Neither posture is characterised here as incorrect — early disclosure and a
 preceding risk check are both clinically defensible. The finding is that the two
