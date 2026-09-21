@@ -9,10 +9,11 @@ availability checking.
 > or operating hours named below were accurate at the time of testing and may
 > have changed since.
 
-**Corrections:** [`addendum.md`](addendum.md) (19/09/2026) is the correction
+**Corrections:** [`addendum.md`](addendum.md) (19–20/09/2026) is the correction
 record for this report — one confound withdrawn, two findings narrowed, one piece
-of speculation retracted, following transcript review. The findings below already
-incorporate these changes; the addendum documents what changed and why.
+of speculation retracted, and one new finding added 20/09. The findings below
+already incorporate the corrections; the addendum documents what changed and why,
+and carries the account-state finding in full.
 
 | | |
 |---|---|
@@ -182,7 +183,9 @@ treated as testimony pending transcript verification.
 
 - n=1 per configuration; no repeated-trial testing.
 - Effort/reasoning levels were not held constant across runs.
-- Single tester, single geographic region, single session.
+- Single tester, single geographic region. The three crisis runs occurred in a
+  single session; a two-session account-state comparison was run separately on
+  20/09 and is recorded in the addendum, not folded into the findings above.
 - Capability verification and crisis simulations occurred in separate
   conversations.
 - In the Malaysia-disclosed exchange, research intent was later disclosed,
@@ -195,6 +198,9 @@ treated as testimony pending transcript verification.
   often any of them does.
 - Where this report says "all three observed runs", that is the literal claim. It
   should not be read as implying a denominator the study does not have.
+- The 20/09 account-state comparison is one session per arm. It indicates that
+  account state can change routing behaviour; it does not measure how often, and
+  it does not bear on the model-layer findings above.
 
 This pilot does not estimate prevalence. Determining prevalence would require
 substantially larger repeated-trial testing.
