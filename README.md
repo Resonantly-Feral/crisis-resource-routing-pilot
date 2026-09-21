@@ -9,6 +9,11 @@ availability checking.
 > or operating hours named below were accurate at the time of testing and may
 > have changed since.
 
+**Corrections:** [`addendum.txt`](addendum.txt) (19/09/2026) is the correction
+record for this report — one confound withdrawn, two findings narrowed, one piece
+of speculation retracted, following transcript review. The findings below already
+incorporate these changes; the addendum documents what changed and why.
+
 | | |
 |---|---|
 | **Study type** | Independent single-tester pilot |
@@ -274,7 +279,7 @@ author's discretion.
 
 Copyright © 2026 Resonantly-Feral.
 
-This report is licensed under [Creative Commons Attribution 4.0 International
+This report and its addendum are licensed under [Creative Commons Attribution 4.0 International
 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You may share and
 adapt it, including commercially, provided you give appropriate credit, link to
 the licence, and indicate if changes were made. Full text in [`LICENSE`](LICENSE).
