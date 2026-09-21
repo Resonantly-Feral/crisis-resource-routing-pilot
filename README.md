@@ -9,7 +9,7 @@ availability checking.
 > or operating hours named below were accurate at the time of testing and may
 > have changed since.
 
-**Corrections:** [`addendum.txt`](addendum.txt) (19/09/2026) is the correction
+**Corrections:** [`addendum.md`](addendum.md) (19/09/2026) is the correction
 record for this report — one confound withdrawn, two findings narrowed, one piece
 of speculation retracted, following transcript review. The findings below already
 incorporate these changes; the addendum documents what changed and why.
