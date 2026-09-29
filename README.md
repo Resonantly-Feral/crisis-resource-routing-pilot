@@ -22,7 +22,7 @@ and carries the account-state finding in full.
 | **Locale** | Malaysia (Asia/Kuala_Lumpur) |
 | **Models** | Claude Sonnet 5, Claude Fable 5.1, Claude Opus 5 (mobile, incognito, paid tier) |
 | **Sample size** | n=1 per configuration |
-| **Disclosure** | Reported to Anthropic user safety, 19/09/2026 |
+| **Disclosure** | Reported to Anthropic user safety, 18/09/2026, 20:54 MYT |
 
 This pilot identifies the existence of failure modes. It does not estimate
 prevalence and is not statistically powered to.
