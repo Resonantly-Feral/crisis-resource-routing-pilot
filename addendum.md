@@ -8,20 +8,21 @@ sits.
 | | |
 |---|---|
 | **Addendum to** | Pilot report submitted 18/09/2026 |
-| **Date of addendum** | 19/09/2026 (Item 9 added 20/09/2026) |
+| **Date of addendum** | 19/09/2026 (Item 9 added 20/09/2026; Item 11 added 30/09/2026) |
 | **Tester** | Independent, single-tester pilot |
 | **Locale** | Malaysia (Asia/Kuala_Lumpur) |
 | **Models referenced** | Claude Sonnet 5, Claude Fable 5.1, Claude Opus 5 |
 | **Status** | One confound withdrawn; three corrections or clarifications; one verification; two new findings; one revised finding; one amended recommendation |
 
 This addendum follows the pilot report on crisis-response resource behaviour
-submitted 18/09/2026. It contains ten items. One withdraws a stated confound.
+submitted 18/09/2026. It contains eleven items. One withdraws a stated confound.
 Three correct or narrow claims made in the original report, two of which reduce
 the strength of what I originally wrote. One is an independent verification. One
 is a new finding drawn from transcript review. One revises an existing finding
 onto better evidence. One is an amended recommendation. One is a new finding from
 a follow-up test run on 20/09/2026, after the rest of this addendum was written.
-The last states the limits of all of them.
+Item 10 states the limits of all of them. Item 11, added 30/09/2026, records a
+later product change and is an observation, not a finding.
 
 I have listed the corrections first, before the new material, because two of them
 bear on how the original findings should be read.
@@ -347,3 +348,70 @@ of the two, and part one as the more immediately deployable.
 
 Transcripts for every item above are available on request, including the full
 crisis exchanges for all three configurations.
+
+## Item 11 — Observation: per-turn local time and timezone now supplied (added 30/09/2026)
+
+This is a dated observation of a product change. It is not a finding of this
+pilot, and it makes no claim about why the change was made.
+
+### What is observed
+
+In the Claude consumer app (mobile, on the account used for this pilot), each
+user turn now arrives with a system-authored line placed inside the turn, ahead
+of the user's own text. As reported by the model, character for character:
+
+```
+<system-reminder>The user's timezone is Asia/Kuala_Lumpur (UTC+08:00). Message sent at Wed 2026-09-30 08:28 local time.</system-reminder>
+```
+
+It carries the IANA timezone and UTC offset, and the local send time to the
+minute with day of week and ISO date. It does not appear in the user's view of
+the conversation.
+
+The earliest message found in my own chat history carrying it was sent
+29/09/2026 at 20:45 MYT. When it began, and whether it applies to other
+accounts, regions or surfaces, is unknown.
+
+### Against the recommendation in Item 7
+
+**Part one (locale injection):** the observed mechanism matches on content
+(local time and IANA timezone), frequency (every turn) and placement (inside the
+current user turn, at the tail of the context). Two differences: time is given
+to the minute rather than rounded to the hour or fifteen minutes, and within the
+turn it sits before the user's text. Item 7 did not specify order within the
+turn.
+
+**Part two (precomputed availability state):** not observed. Nothing seen so far
+indicates that crisis resources are returned with an open-now state.
+
+The limit stated in Item 10 still applies: presence in context does not
+guarantee consultation. Whether the model now uses the supplied time when it
+routes to a time-limited helpline, the failure in Finding 3, has not been
+re-tested under the original protocol.
+
+### Prior requests for the same mechanism
+
+Public feature requests for per-turn time and timezone injection existed before
+this pilot, on the Claude Code repository:
+[#32913](https://github.com/anthropics/claude-code/issues/32913) (date and time,
+including timezone, injected into each prompt),
+[#49084](https://github.com/anthropics/claude-code/issues/49084) (timestamps as
+structured data on each message) and
+[#55793](https://github.com/anthropics/claude-code/issues/55793) (local time and
+timezone added to the existing date injection). Anthropic's own
+[documentation](https://platform.claude.com/docs/en/about-claude/models/optimizing-for-cost-and-intelligence)
+also recommends keeping per-request text such as timestamps in the newest user
+turn for caching reasons.
+
+The mechanism in Part one was therefore not new. What this pilot added was the
+safety case: that a missing local time led a model to route a user in crisis to
+a helpline that was closed, even when the model had stated the hours itself.
+
+### What this does and does not establish
+
+Established: the pilot report was sent to Anthropic user safety on 18/09/2026
+at 20:54 MYT; Part one was proposed in this addendum, dated 19/09/2026; the
+mechanism is now observed in the consumer app; Part two is not.
+
+Not established: whether this report caused, contributed to, or merely coincided
+with the change. That cannot be determined from outside.

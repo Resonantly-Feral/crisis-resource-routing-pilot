@@ -13,7 +13,9 @@ availability checking.
 record for this report — one confound withdrawn, two findings narrowed, one piece
 of speculation retracted, and one new finding added 20/09. The findings below
 already incorporate the corrections; the addendum documents what changed and why,
-and carries the account-state finding in full.
+and carries the account-state finding in full. Item 11 (added 30/09/2026)
+records a later product change: per-turn local time and timezone, matching Part
+one of the recommendations. It makes no claim about cause.
 
 | | |
 |---|---|
