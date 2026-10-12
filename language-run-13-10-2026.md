@@ -1,4 +1,4 @@
-# Register runs — informal Malay, 13/10/2026
+# Language runs — informal Malay, 13/10/2026
 
 Two follow-up runs of a crisis script in heavily abbreviated informal Malay
 ("rempit" register), after midnight, in incognito: one with my standing account
