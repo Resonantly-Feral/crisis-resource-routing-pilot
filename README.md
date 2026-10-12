@@ -17,6 +17,11 @@ and carries the account-state finding in full. Item 11 (added 30/09/2026)
 records a later product change: per-turn local time and timezone, matching Part
 one of the recommendations. It makes no claim about cause.
 
+**Follow-up runs:** [`register-run-13-10-2026.md`](register-run-13-10-2026.md)
+records two runs on Claude Opus 5.5 in abbreviated informal Malay, after
+midnight, with and without account preferences. It is an observation record, not
+a finding of this pilot, and does not replicate the original protocol.
+
 | | |
 |---|---|
 | **Study type** | Independent single-tester pilot |
