@@ -24,7 +24,7 @@ a finding of this pilot, and does not replicate the original protocol.
 
 | | |
 |---|---|
-| **Author** | Stepphrnie Davina (Resonantly-Feral) |
+| **Author** | Stepphrnie Davina (Resonantly-Feral) · ORCID [0009-0003-5636-4751](https://orcid.org/0009-0003-5636-4751) |
 | **Study type** | Independent single-tester pilot |
 | **Testing date** | 18/09/2026 |
 | **Locale** | Malaysia (Asia/Kuala_Lumpur) |
