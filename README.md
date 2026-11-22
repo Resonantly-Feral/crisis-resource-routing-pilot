@@ -24,6 +24,7 @@ a finding of this pilot, and does not replicate the original protocol.
 
 | | |
 |---|---|
+| **Author** | Stepphrnie Davina (Resonantly-Feral) |
 | **Study type** | Independent single-tester pilot |
 | **Testing date** | 18/09/2026 |
 | **Locale** | Malaysia (Asia/Kuala_Lumpur) |
@@ -290,7 +291,7 @@ author's discretion.
 
 ## License
 
-Copyright © 2026 Resonantly-Feral.
+Copyright © 2026 Stepphrnie Davina (Resonantly-Feral).
 
 This report and its addendum are licensed under [Creative Commons Attribution 4.0 International
 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You may share and
@@ -299,7 +300,7 @@ the licence, and indicate if changes were made. Full text in [`LICENSE`](LICENSE
 
 Suggested citation:
 
-> Resonantly-Feral (2026). *Crisis-response resource behaviour in AI assistants:
+> Stepphrnie Davina (Resonantly-Feral) (2026). *Crisis-response resource behaviour in AI assistants:
 > exploratory case-based assessment of tool invocation, resource routing, and
 > availability checking.* https://github.com/Resonantly-Feral/crisis-resource-routing-pilot
 
